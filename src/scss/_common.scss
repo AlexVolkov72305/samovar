@@ -1,0 +1,51 @@
+/***** Common styles *****/
+*, a {
+	box-sizing: border-box;
+	font-family: "Roboto";
+	font-weight: normal;
+	line-height: 1;
+	color: #4a4a4a;
+	-webkit-font-smoothing: antialiased;
+}
+a:hover {
+	text-decoration: none;
+	color: darken(#4a4a4a, 10%);
+}
+img {
+		max-width: 100%;
+		height: auto;
+}
+.btn_styles {
+    display: inline-block;
+    max-width: 100%;
+    line-height: 1;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+
+    &:hover {
+        text-decoration: none;
+        outline: none;
+    }
+    &:focus {
+        animation-name: none;
+        outline: none;
+    }
+}
+
+.note-editor {
+	.note-toolbar-wrapper {
+		height: auto !important;
+
+		.note-toolbar {
+			z-index: 1;
+		}
+	}
+}
+
+.article_status {
+	font-size: 10px;
+	display: inline-block;
+}
